@@ -9,7 +9,9 @@ function gdrive_download () {
 # Source: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
 # WARNING: Approx 1 GB
 gdrive_download "0BzQ6rtO2VN95a0c3TlZCWkl3aU0" "finished_files.zip"
+unzip "finished_files.zip"
 
 # Download the pretrained model weights
 # Source: From README in https://github.com/Jonksar/pointer-generator
-# gdrive_download "0B7pQmm-OfDv7ZUhHZm9ZWEZidDg" "pretrained_model_tf1.2.1.zip"
+gdrive_download "0B7pQmm-OfDv7ZUhHZm9ZWEZidDg" "pretrained_model_tf1.2.1.zip"
+unzip  "pretrained_model_tf1.2.1.zip"
