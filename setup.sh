@@ -29,6 +29,7 @@ rm "pretrained_model_tf1.2.1.zip"
 #
 
 mkdir -p `pwd`/logs/run\#1
+pip install -r requirements.txt
 
 
 #
